@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.focusrecyclerviewdemo.FocusConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="RecyclerView 嵌套Demo"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/home_recycler_pading_top"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn2"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:layout_marginTop="@dimen/home_recycler_pading_top"
+        android:textColor="@android:color/black"
+        android:text="btn1"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn1"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/home_recycler_pading_top"
+        android:text="btn2"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="@dimen/home_recycler_pading_top">
+        <com.example.focusrecyclerviewdemo.FirstRowRecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/home_recycler_pading_top"
+            android:background="@android:color/darker_gray"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            />
+    </androidx.core.widget.NestedScrollView>
+
+</com.example.focusrecyclerviewdemo.FocusConstraintLayout>

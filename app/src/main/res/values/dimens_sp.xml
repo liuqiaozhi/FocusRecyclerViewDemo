@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_title_txt_sp">18sp</dimen>
+
+    <dimen name="home_detail_name_sp">22sp</dimen>
+
+    <dimen name="home_other_sp">15sp</dimen>
+    <dimen name="home_item_title_sp">18sp</dimen>
+
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="home_select_txt_sp">20sp</dimen>
+    <dimen name="home_select_item_txt_sp">13sp</dimen>
+    <dimen name="custom_channel_alia_txt_sp">11sp</dimen>
+    <dimen name="custopm_channel_switch_alia_txt_sp">14sp</dimen>
+
+    <dimen name="pop_item_txt_sp">12sp</dimen>
+    <dimen name="recycler_item_item_txt_name_sp">12sp</dimen>
+</resources>

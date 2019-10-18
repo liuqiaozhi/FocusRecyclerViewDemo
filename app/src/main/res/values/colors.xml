@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="bg_setting_window">#b0000000</color>
+    <color name="gray_color">#f0f0f0</color>
+    <color name="home_detail_name_color">#b1b4bd</color>
+    <color name="home_other_txt_color">#b0b3bc</color>
+    <color name="home_item_title_color">#b4b4b4</color>
+    <color name="main_selector_color">#eece17</color>
+    <color name="other_selector_color">#004CFF</color>
+    <color name="home_recycler_bg_color">#000000</color>
+
+    <color name="home_app_selector_txt_color">#37474f</color>
+    <color name="home_app_selector_recycler_color">#e9263238</color>
+    <color name="home_app_selector_item_bg_color">#3b464c</color>
+    <color name="home_app_selector_item_txt_color">#e8e8e8</color>
+    
+    <color name="home_foot_channel_focus_color">#cf0066ff</color>
+    <color name="home_foot_channel_nomal_color">#aaa0a0a0</color>
+
+    <color name="custom_channel_item_alia_color">#d8d8d8</color>
+    <color name="custom_channel_mask_color">#a6263238</color>
+    <color name="custom_channel_recycler_title_color">#70b0ab</color>
+
+    <color name="custom_pop_bg">#90000000</color>
+
+    <color name="color_1255e8">#1255e8</color>
+    <color name="color_d2d2d2">#d2d2d2</color>
+    <color name="color_202020">#202020</color>
+    <color name="txt_uninstall">#80141a1c</color>
+
+    <color name="color_title_selector_bg">#646464</color>
+
+    <color name="progress_select_color">#f30306</color>
+    <color name="progress_nomal_color">#3a3a3a</color>
+
+    <color name="home_bg_color">#001d29</color>
+</resources>

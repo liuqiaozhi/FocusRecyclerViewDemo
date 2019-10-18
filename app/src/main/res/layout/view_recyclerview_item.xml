@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.focusrecyclerviewdemo.HRecyclerViewItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true">
+    <TextView
+        android:id="@+id/item_tv_bg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:duplicateParentState="true"/>
+
+    <TextView
+        android:id="@+id/item_tv_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/item_tv_bg"
+        app:layout_constraintTop_toTopOf="@id/item_tv_bg"
+        app:layout_constraintBottom_toBottomOf="@id/item_tv_bg"
+        app:layout_constraintEnd_toEndOf="@id/item_tv_bg"
+        android:gravity="center"
+        android:background="@android:color/holo_purple"
+        android:layout_margin="@dimen/home_item_item_image_padding"
+        />
+</com.example.focusrecyclerviewdemo.HRecyclerViewItemView>

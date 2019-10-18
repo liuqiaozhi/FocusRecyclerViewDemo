@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.focusrecyclerviewdemo.ItemLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regional"
+        android:paddingStart="@dimen/home_out_padding_start"
+        android:paddingEnd="@dimen/home_out_padding_start"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@android:color/holo_green_light"
+        android:textSize="@dimen/home_item_title_sp"
+        android:paddingBottom="@dimen/home_item_item_progressbar_magin"/>
+    <com.example.focusrecyclerviewdemo.FirstColumnRecyclerView
+        android:id="@+id/item_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/home_out_padding_start"
+        android:paddingEnd="@dimen/home_out_padding_start"
+        android:background="@android:color/holo_blue_light"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        />
+
+</com.example.focusrecyclerviewdemo.ItemLayout>

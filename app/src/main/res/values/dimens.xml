@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_recycler_pading_top">20dp</dimen>
+    <dimen name="home_out_padding_start">35dp</dimen>
+    <dimen name="home_item_item_progressbar_magin">6dp</dimen>
+
+    <dimen name="home_item_item_type1_width">162dp</dimen>
+    <dimen name="home_item_item_type1_height">86dp</dimen>
+
+    <dimen name="home_item_item_image_padding">2dp</dimen>
+    <dimen name="home_item_recycler_padding_bottom">20dp</dimen>
+
+</resources>
